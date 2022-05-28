@@ -12,7 +12,8 @@
 
 <body>
 
-    <livewire:data-binding />
+    {{-- <livewire:data-binding /> --}}
+    <livewire:data-binding-example />
 
     @livewireScripts()
 </body>

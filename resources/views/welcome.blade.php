@@ -13,7 +13,8 @@
 <body>
 
     {{-- <livewire:data-binding /> --}}
-    <livewire:data-binding-example />
+    {{-- <livewire:data-binding-example /> --}}
+    <livewire:nesting />
 
     @livewireScripts()
 </body>

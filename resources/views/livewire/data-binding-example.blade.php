@@ -1,4 +1,6 @@
 <div>
+    <h1>Data binding example</h1>
+    <hr>
     <select wire:model.debounce.500ms="greetings" id="">
         <option value="Hi">Hi</option>
         <option value="Hello">hello</option>

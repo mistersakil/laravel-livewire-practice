@@ -14,7 +14,8 @@
 
     {{-- <livewire:data-binding /> --}}
     {{-- <livewire:data-binding-example /> --}}
-    <livewire:nesting />
+    {{-- <livewire:nesting /> --}}
+    <livewire:events />
 
     @livewireScripts()
 </body>

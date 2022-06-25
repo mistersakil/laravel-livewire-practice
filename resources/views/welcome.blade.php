@@ -19,6 +19,9 @@
     {{-- <livewire:events /> --}}
 
     <x-navbar />
+    <x-navbar />
+    <x-navbar />
+    <x-navbar />
 
     @livewireScripts()
 </body>

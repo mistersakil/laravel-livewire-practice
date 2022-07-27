@@ -3,7 +3,8 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Livewire\Frontend\HomePage;
 use App\Http\Livewire\Backend\Dashboard\Dashboard;
-
+use App\Http\Livewire\Backend\Users\Users;
+use App\Http\Livewire\Backend\Posts\Posts;
 
 /*
 |--------------------------------------------------------------------------
@@ -21,8 +22,6 @@ Route::get('/', HomePage::class);
 ## Backend routes
 Route::prefix('admin')->name('admin.')->group(function () {
     Route::get('/', Dashboard::class)->name('dashboard');
-
-    Route::get('/user/profile', function () {
-        // Uses first & second middleware...
-    });
+    Route::get('/users', Users::class)->name('users');
+    Route::get('/posts', Posts::class)->name('posts');
 });

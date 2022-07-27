@@ -1,6 +1,6 @@
 <div class="page-main-header">
     <div class="main-header-left">
-        <div class="logo-wrapper"><a href="index.html">
+        <div class="logo-wrapper"><a href="{{ route('admin.dashboard') }}">
                 <img class="blur-up lazyloaded" src="{{ asset('backend') }}/assets/images/layout-2/logo/logo.png"
                     alt="">
             </a></div>

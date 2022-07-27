@@ -11,7 +11,7 @@
     <meta name="author" content="pixelstrap">
     <link rel="icon" href="{{ asset('backend') }}/assets/images/favicon/favicon.png" type="image/x-icon">
     <link rel="shortcut icon" href="{{ asset('backend') }}/assets/images/favicon/favicon.png" type="image/x-icon">
-    <title>Admin</title>
+    <title>{{ $pageTitle }} | Octapia Admin</title>
 
     @includeIf('livewire.backend.layout.styles')
 </head>

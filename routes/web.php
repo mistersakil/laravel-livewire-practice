@@ -18,6 +18,8 @@ use App\Http\Livewire\Backend\Posts\Posts;
 */
 
 Route::get('/', HomePage::class);
+// Route::view('/', 'components.frontend.layout');
+
 
 ## Backend routes
 Route::prefix('admin')->name('admin.')->group(function () {

@@ -4,21 +4,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>
-        @isset($title)
-            {{ $title }}
-        @endisset
-    </title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    @vite()
+
 
 </head>
 
 <body>
-
+    <h1>vite working</h1>
+    <h2>againt</h2>
 
     {{ $slot }}
-
 
 </body>
 

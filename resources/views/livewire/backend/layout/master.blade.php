@@ -12,8 +12,9 @@
     <link rel="icon" href="{{ asset('backend') }}/assets/images/favicon/favicon.png" type="image/x-icon">
     <link rel="shortcut icon" href="{{ asset('backend') }}/assets/images/favicon/favicon.png" type="image/x-icon">
     <title>{{ $pageTitle }} | Octapia Admin</title>
-
     @includeIf('livewire.backend.layout.styles')
+    {{-- @vite(['resources/css/app.css', 'resources/js/app.js']) --}}
+
 </head>
 
 <body>

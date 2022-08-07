@@ -4,7 +4,7 @@ import $ from "jquery";
 import Swal from "sweetalert2";
 import toastr from "toastr";
 window.$ = window.jQuery = $;
-import feather from "feather-icons";
+// import feather from "feather-icons";
 
 import fortawesome from "@fortawesome/fontawesome-free/js/all";
 
@@ -37,4 +37,4 @@ toastr.success(
     "Turtle Bay Resort",
     options
 );
-feather.replace();
+// feather.replace();

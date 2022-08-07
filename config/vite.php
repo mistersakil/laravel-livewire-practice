@@ -12,9 +12,9 @@ return [
             'dev_server' => [
                 'url' => env('DEV_SERVER_URL', 'http://localhost:3000'),
             ],
-            'heartbeat_checker' => function ($http, $method) {
-                return ['code' => 200];
-            }
+            "interfaces" => [
+                "heartbeat_checker" => "Innocenzi\\Vite\\HeartbeatCheckers\\HttpHeartbeatChecker"
+            ],
 
         ],
     ],
